@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.mondrian-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 5px;
+  width: 600px;
+  height: 600px;
+  background-color: #000;
+}
+
+.box {
+  border: 2px solid #000;
+  background-color: #fff;
+}
+
+.light-blue {
+  background-color: #d4e6f1;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.beige {
+  background-color: #fef5e7;
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.yellow {
+  background-color: #f9e79f;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.pale-yellow {
+  background-color: #fcf3cf;
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.red.large {
+  background-color: #e74c3c;
+  grid-column: span 3;
+  grid-row: span 3;
+}
+
+.light-gray {
+  background-color: #d5dbdb;
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.dark-gray {
+  background-color: #85929e;
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.pale-green {
+  background-color: #d5f5e3;
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.dark-blue {
+  background-color: #1f618d;
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.mustard {
+  background-color: #f7dc6f;
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.cream {
+  background-color: #fdf2e9;
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.burgundy {
+  background-color: #641e16;
+  grid-column: span 1;
+  grid-row: span 1;
+}
